@@ -9,8 +9,8 @@ const Home = () => {
 
 	const handleFilterData = (value) => {
 		setColorName(value)
-		const data = allColors.filter((obj) => obj.name.toLowerCase().includes(value.toLowerCase()))
-		setSearchData(data);
+    const data = allColors.filter((obj) => obj.name.toLowerCase().includes(value.toLowerCase()))
+    setSearchData(data);
 	}
 
 	return (
