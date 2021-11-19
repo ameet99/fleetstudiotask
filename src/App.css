@@ -1,0 +1,32 @@
+.header {
+  padding: 10px 12px;
+  background: #555;
+  color: #f1f1f1;
+}
+input[type=text], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #555;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.content {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.card-container {
+  --auto-grid-min-size: 25rem;  
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+  grid-gap: 1rem;
+}
+.card {
+  padding: 5rem 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+  background: #eb4d4b;
+  color: #ffffff;
+}
+
